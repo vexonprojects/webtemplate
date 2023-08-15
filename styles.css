@@ -5,13 +5,32 @@
   border: 2px;
   border-color: red;
   border-style: dotted;
+  background-color: darkgray;
 }
 
 .topbar {
-  display: inline-block;
-  padding: 10px;
+  display: flex;
+  flex-direction: row;
   margin: auto 50px;
-  border: 2px;
-  border-color: red;
-  border-style: dotted;
+  justify-content: space-between;
+}
+
+.header-links {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.content {
+display: flex;
+}
+
+.left-content {
+  display: flex;
+  margin: auto 50px;
+  flex-direction: column;
+}
+
+.middle-content {
+  display: flex;
 }
