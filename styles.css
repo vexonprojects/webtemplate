@@ -11,7 +11,7 @@
 .topbar {
   display: flex;
   flex-direction: row;
-  margin: auto 50px;
+  margin: auto 200px;
   justify-content: space-between;
 }
 
@@ -21,16 +21,43 @@
   gap: 15px;
 }
 
-.content {
+.content-top {
 display: flex;
+justify-content: space-between;
+margin: 100px auto;
 }
 
 .left-content {
   display: flex;
-  margin: auto 50px;
+  margin-left: 200px;
   flex-direction: column;
 }
 
 .middle-content {
   display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.lower-middle-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-right {
+  display: flex;
+  margin-right: 200px;
+  background-color: darkblue;
+}
+.middle-images {
+  display: flex;
+}
+
+.four-images {
+  display: flex;
+  gap: 20px;
+}
+
+.four-descriptions {
+display: flex;
 }
