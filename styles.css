@@ -63,17 +63,18 @@ body {
   gap: 20px;
   margin: auto 220px;
   justify-content: space-between;
+  height: 412px;
 }
 
 .four-descriptions {
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    flex-grow: 0;
 }
 
 .four-images {
-
+  display: flex;
+  flex-direction: column;
 }
 
 .content-all {
@@ -90,4 +91,14 @@ h1 {
   width: 404px;
   margin-top: 0px;
     margin-bottom: 0px;
+}
+
+.fourimageclass {
+display: flex;
+flex-shrink: 2;
+border-radius: 20px; 
+text-align: center; 
+width: 244px;
+height: 244px; 
+/* is the height and width being added this way making them stuck? also why are they blowing through the right margin when making the window smaller/opening the inspector? */
 }
