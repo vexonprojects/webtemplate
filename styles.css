@@ -43,11 +43,17 @@ body {
   display: flex;
   text-align: center;
   flex-direction: column;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 100px;
 }
 
 .lower-middle-content {
   display: flex;
   flex-direction: column;
+  margin-top: 100px;
+  align-items: flex-end;
+  padding-left: 25px;
 }
 
 .image-right {
@@ -61,8 +67,6 @@ body {
 .four-images-content {
   display: flex;
   gap: 20px;
-  margin: auto 220px;
-  justify-content: space-between;
   height: 412px;
 }
 
@@ -75,6 +79,7 @@ body {
 .four-images {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .content-all {
@@ -88,7 +93,7 @@ body {
   flex-direction: column;
 }
 h1 {
-  width: 404px;
+  max-width: 404px;
   margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -98,7 +103,22 @@ display: flex;
 flex-shrink: 2;
 border-radius: 20px; 
 text-align: center; 
-width: 244px;
-height: 244px; 
+max-width: 244px;
+height: 244px;
 /* is the height and width being added this way making them stuck? also why are they blowing through the right margin when making the window smaller/opening the inspector? */
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  font-size: 135%
+}
+
+h4 {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: flex-end
 }
